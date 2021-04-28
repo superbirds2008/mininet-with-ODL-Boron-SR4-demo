@@ -34,10 +34,10 @@ echo "export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64" >> ~/.bashrc
 
 
 #screen -S mn  
+#ce ~/mininet
 #sudo mn --topo=linear,3 --mac --switch=ovs,protocols=OpenFlow13 --controller=remote,ip=localhost,port=6633 
-#cd distribution-karaf-0.5.4-Boron-SR4
 #screen -S karaf
-#./bin/karaf
+#cd ~/distribution-karaf-0.5.4-Boron-SR4/bin/karaf
 #feature:install odl-restconf 
 #feature:install odl-l2switch-switch 
 #feature:install odl-mdsal-apidocs 
